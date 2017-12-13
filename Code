@@ -77,11 +77,6 @@ for (q, i) in enumerate(np.arange(0, len(sorukontur), 5)):
 		if isaretli is None or toplam > isaretli[0]:
 			isaretli = (toplam, j)
 
-
-
-
-
-
 #bulunan konturun çevre çizimi
 cv2.drawContours(foto, [optikkontur], -1, (0, 255, 0), 2)
 #cv2.imshow('işaretlenmiş', maske)
